@@ -28,7 +28,7 @@ Lidnight turns lid-closed sleep prevention **on while agents are actually workin
 
 - **Lid closed, even on battery** — through a small helper that only runs a fixed list of power commands. A watchdog restores sleep settings if the app quits; after a power loss they're restored at the next boot.
 - **Knows when the work is done** — Claude Code and Codex precisely via their hooks; 40+ other tools (Gemini CLI, Aider, Kiro CLI, Ollama, LM Studio…) from process and GPU activity. Sleeps 10 minutes after everything goes quiet.
-- **Usage-limit waits** — when Claude Code hits its 5-hour limit it waits and continues on its own after the reset, but not if the Mac slept through it. Lidnight keeps the Mac awake until the reset.
+- **Continue after a limit reset** — when Claude Code or Codex stops on a 5-hour or weekly limit, choose per agent whether it picks the task back up after the reset. Claude Code continues on its own after a 5-hour reset and Lidnight keeps the Mac awake until then; when an agent wouldn't continue on its own (weekly limit, long sleep), Lidnight sends a one-line "please continue" via Claude Code's official session messaging or `codex queue`.
 - **Approve from anywhere** — answer Claude Code permission prompts from a Mac notification, the menu bar, a bunny next to the notch, or your phone (end-to-end encrypted; `rm -rf` / `git push` / `sudo` stay Mac-only).
 - **Safety** — alert at 42 °C, sleep at 45 °C or at a battery floor you set.
 - **Limits & usage** — Claude/Codex 5-hour and weekly limits, tokens and estimated cost, a bunny per agent in the menu bar.
