@@ -45,8 +45,8 @@ Lidnight turns lid-closed sleep prevention **on while agents are actually workin
 
 ## Pricing
 
-Free: AI Auto mode, battery & heat protection, approvals on the Mac.
-Pro (one-time, no subscription): $9.99 for 1 Mac · $14.99 for 3 — **50% off through Oct 31, 2026**. Every download includes a 7-day Pro trial, no payment details needed. 14-day refund.
+Free: AI Auto mode with the lid open, battery & heat protection, approvals on the Mac.
+Pro (one-time, no subscription) keeps going with the lid closed, even on battery, plus auto-start, phone approvals and more: $9.99 for 1 Mac · $14.99 for 3 — **50% off through Oct 31, 2026**. Every download includes a 7-day Pro trial, no payment details needed. 14-day refund.
 
 ## Privacy
 
