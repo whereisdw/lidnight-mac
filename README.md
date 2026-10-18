@@ -18,6 +18,13 @@ Claude Code · Codex · Gemini CLI · Ollama · LM Studio and 40+ more · Apple 
 brew install whereisdw/tap/lidnight
 ```
 
+Using Claude Code? The [Lidnight plugin](https://github.com/whereisdw/lidnight-claude-plugin) adds `/lidnight:awake`, `/lidnight:status` and `/lidnight:sleep`:
+
+```text
+/plugin marketplace add whereisdw/lidnight-claude-plugin
+/plugin install lidnight@lidnight
+```
+
 ## Why
 
 Close a MacBook with no external display and macOS sleeps — and your Claude Code / Codex run stalls a few minutes in. `caffeinate` only blocks *idle* sleep, and `sudo pmset -a disablesleep 1` works but stays on until you remember to undo it (heat, drained battery, a hot bag).
@@ -30,6 +37,7 @@ Lidnight turns lid-closed sleep prevention **on while agents are actually workin
 - **Knows when the work is done** — Claude Code and Codex precisely via their hooks; 40+ other tools (Gemini CLI, Aider, Kiro CLI, Ollama, LM Studio…) from process and GPU activity. Sleeps 10 minutes after everything goes quiet.
 - **Continue after a limit reset** — when Claude Code or Codex stops on a 5-hour or weekly limit, choose per agent whether it picks the task back up after the reset. Claude Code continues on its own after a 5-hour reset and Lidnight keeps the Mac awake until then; when an agent wouldn't continue on its own (weekly limit, long sleep), Lidnight sends a one-line "please continue" via Claude Code's official session messaging or `codex queue`.
 - **Approve from anywhere** — answer Claude Code permission prompts from a Mac notification, the menu bar, a bunny next to the notch, or your phone (end-to-end encrypted; `rm -rf` / `git push` / `sudo` stay Mac-only).
+- **Heads-ups that save a run** — a ping the moment Codex asks you a question (it may go ahead with its suggested answer if you don't reply), a warning when a usage limit drains fast enough to run out before the reset, and a nudge when finished Claude Code sessions leave processes eating memory (Clean up ends only those).
 - **Safety** — alert at 42 °C, sleep at 45 °C or at a battery floor you set.
 - **Limits & usage** — Claude/Codex 5-hour and weekly limits, tokens and estimated cost, a bunny per agent in the menu bar.
 
