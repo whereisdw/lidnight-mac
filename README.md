@@ -50,7 +50,7 @@ Pro (one-time, no subscription) keeps going with the lid closed, even on battery
 
 ## Privacy
 
-No account, no analytics. Your code and conversations never leave the Mac. Phone status is encrypted on the Mac (AES-GCM) and commands are one-time HMAC signatures — the relay can't read them. Details: https://lidnight.app/en/security/
+No account. Your code and conversations never leave the Mac. The app sends only five anonymous daily counts (like "purchase screen opened", no device or ID), and you can turn that off in Settings. Phone status is encrypted on the Mac (AES-GCM) and commands are one-time HMAC signatures — the relay can't read them. Details: https://lidnight.app/en/security/
 
 ## Support
 
