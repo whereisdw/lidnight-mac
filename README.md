@@ -40,8 +40,11 @@ Lidnight turns lid-closed sleep prevention **on while agents are actually workin
 - **Heads-ups that save a run** — a ping the moment Codex asks you a question (it may go ahead with its suggested answer if you don't reply), a warning when a usage limit drains fast enough to run out before the reset, and a nudge when finished Claude Code sessions leave processes eating memory (Clean up ends only those).
 - **Safety** — alert at 42 °C, sleep at 45 °C or at a battery floor you set.
 - **Limits & usage** — Claude/Codex 5-hour and weekly limits, tokens and estimated cost, a bunny per agent in the menu bar.
+- **Dashboard** (free) — one window for every agent session: a one-line status, a zoomable timeline (1 hour to 30 days) and work by project; a **service map** with each session's CPU, memory, disk I/O and network (child processes included), the Codex runs, MCP servers and sub-agents it started, and lines for messages between sessions such as an orchestrator and its workers (only sender and recipient are read, never the content); monitors with stated rules; AI setup (MCP servers, plugins, skills, hooks, permissions); usage and cost by AI, model and project; Mac resources. ⌘K to find anything. Everything stays on the Mac.
 
 <p align="center"><img src="menubar-approval.png" width="380" alt="Menu bar window with a Claude Code approval request"></p>
+
+<p align="center"><img src="dashboard.png" width="720" alt="Lidnight dashboard overview with status, counts, a timeline and work by project (sample data)"></p>
 
 ## Pricing
 
