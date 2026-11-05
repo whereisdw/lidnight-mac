@@ -1,7 +1,7 @@
 <p align="center"><img src="icon.png" width="96" alt="Lidnight icon"></p>
 
 <h1 align="center">Lidnight</h1>
-<p align="center"><b>Keep your MacBook awake with the lid closed while AI agents work — then let it sleep.</b><br>
+<p align="center"><b>Monitoring for your AI agents and your Mac — every session, approval, limit and resource in one place. Close the lid and the work keeps going.</b><br>
 Claude Code · Codex · Gemini CLI · Ollama · LM Studio and 40+ more · Apple Silicon · macOS 13+</p>
 
 <p align="center">
